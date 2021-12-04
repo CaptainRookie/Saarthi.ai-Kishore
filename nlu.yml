@@ -1,0 +1,233 @@
+version: "3.0"
+
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - moin
+    - hey there
+    - let's go
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
+
+- intent: goodbye
+  examples: |
+    - cu
+    - good by
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+
+
+- intent: affirm
+  examples: |
+    - yes
+    - y
+    - indeed
+    - of course
+    - that sounds good
+    - correct
+
+- intent: deny
+  examples: |
+    - no
+    - n
+    - never
+    - I don't think so
+    - don't like that
+    - no way
+    - not really
+
+- intent: mood_great
+  examples: |
+    - perfect
+    - great
+    - amazing
+    - feeling like a king
+    - wonderful
+    - I am feeling very good
+    - I am great
+    - I am amazing
+    - I am going to save the world
+    - super stoked
+    - extremely good
+    - so so perfect
+    - so good
+    - so perfect
+
+- intent: mood_unhappy
+  examples: |
+    - my day was horrible
+    - I am sad
+    - I don't feel very well
+    - I am disappointed
+    - super sad
+    - I'm so sad
+    - sad
+    - very sad
+    - unhappy
+    - not good
+    - not very good
+    - extremly sad
+    - so saad
+    - so sad
+
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+    - are you a human?
+    - am I talking to a bot?
+    - am I talking to a human?
+
+- intent: nice_to_meet 
+  examples: |
+    - nice to meet you
+    - it was nice meeting you
+    - it was very nice to meet you
+    - good to know each other
+    - glad to meet you
+    - nice meeting you
+    - nice to meet you too
+    - pleased to meet you
+    - pleasure to meet you
+    - pleasure to meet you too
+    - good to see you
+
+- intent: nice_to_talk 
+  examples: |
+    - it’s been so nice to talk to you
+    - it’s been a pleasure talking to you
+    - nice to talk to you
+    - it’s nice to talk to you
+    - nice talking to you
+    - it is nice talking to you
+    - how nice it is to talk to you
+
+- intent: thanking 
+  examples: |
+    - you helped a lot thank you
+    - appreciate your help
+    - cheers
+    - thank you
+    - thanks
+    - thanks a lot
+    - terrific thank you
+    - great thank you
+    - thanks so much
+    - thank you so much
+    - thanks for your help
+    - thank you for your help
+    - nice thank you
+    - I appreciate it
+    - I thank you
+    - thank you that will be all
+    - thanks buddy
+    - thanks love
+    - thank you my friend
+    - well thanks
+    - very good thank you
+    - good thanks
+    - thanks again
+    - thank you again
+    - all thank you
+    - alright thank you
+    - alright thanks
+    - no thank you that’s all
+    - perfect thank you
+    - so nice of you
+    - well thank you
+    - well thanks
+    - thank you
+
+
+  - intent: welcome_thanks 
+  examples: |
+    - that’s my pleasure
+    - my pleasure
+    - anytime
+    - welcome
+    - you’re welcome
+    - sure welcome
+    - welcome here
+    - you’re so welcome
+    - anything you want
+    - welcome
+
+  - intent: well_done 
+  examples: |
+    - good job
+    - great job
+    - way to go
+    - well done
+    - nice work
+    - great work
+    - amazing work
+    - bravo
+    - good work
+
+  - intent: get_weather 
+  examples: |
+    - [Winter] (season)
+    - [spring] (season)
+    - I would like to go to [autumn] (season) place
+    - I like [summer] (season) place
+
+  - intent: search_flights 
+   examples: |
+    – find flights from [bangalore](source) to [mumbai](destination)  
+    – get me flights from [bangalore](source) to [mumbai](destination)  
+    – what are flights from [bangalore](source) to [mumbai](destination)  
+    – fetch me flights from [bangalore](source) to [mumbai](destination)  
+    – find flights from [lucknow](source) to [delhi](destination)  
+    – get me flights from [lucknow](source) to [delhi](destination)  
+    – what are flights from [lucknow](source) to [delhi](destination)  
+    – fetch me flights from [lucknow](source) to [delhi](destination)  
+
+  - intent: flight_search_intent 
+  examples: |
+    - I want to travel
+    - I want a travel ticket
+    - I want a flight ticket
+    - find a flight for me please
+    - find a flight for me, please
+    - Can you please find a flight ticket for me?
+    - I want to book a flight ticket
+    - I want to book a ticket
+    - Can you please find a flight for me?
+    - I want to book a flight asap
+    - I want to book a flight
+    - I am looking for a flight
+    - find a flight for me
+    - I wanna to travel
+    - I need a trip
+
+  - intent: find_itineraries  
+  examples: |
+    – get me my bookings  
+    – show me my bookings  
+    – find my upcoming trips  
+    – fetch my upcoming trips
+
+  - intent: search_trains 
+  examples: | 
+    – find trains from [bangalore](source) to [mumbai](destination)  
+    – get me trains from [bangalore](source) to [mumbai](destination)  
+    – what are trains from [bangalore](source) to [mumbai](destination)  
+    – fetch me trains from [bangalore](source) to [mumbai](destination)  
+    – find trains from [lucknow](source) to [delhi](destination)  
+    – get me trains from [lucknow](source) to [delhi](destination)  
+    – what are trains from [lucknow](source) to [delhi](destination)  
+    – fetch me trains from [lucknow](source) to [delhi](destination) 
+
